@@ -1,0 +1,168 @@
+ .textposi0 {
+        position:absolute;
+        left: 0vw; 
+        top: 6vw;
+        font-size: 3vw;
+        color: rgb(42,42,42);
+        background-color: white;
+    }
+   .textposi1 {
+        position:absolute;
+        left: 0.2vw; 
+        top: 6vw;
+        font-size: 3vw;
+       color: rgb(42,42,42);
+    }
+    .textposi3 {
+        position:absolute;
+        left: 0.2vw; 
+        top: 6vw;
+        font-size: 2.1vw;
+        color: rgb(42,42,42);
+    }
+    .textposi2 {
+        position:absolute;
+        left: 0.2vw; 
+        top: 11vw;
+        font-size: 1.5vw;
+        overflow: hidden;
+        line-height: 1em;
+        color: rgb(42,42,42);
+    } 
+    @media (min-width: 1300px) {
+        .inipic {
+            margin-top: -10px;
+        }
+        .textposi0 {
+            display: none;
+        }
+            .textposi1 {
+            font-size: 39px;
+            position:absolute;
+            left: 5px; 
+            top: 80px;
+        }
+        .textposi3 {
+            font-size: 27px;
+            position:absolute;
+            left: 5px; 
+            top: 80px;
+        }
+        .textposi2 {
+            font-size: 19px;
+            position:absolute;
+            left: 5px; 
+            top: 145px;  
+        }
+    }
+    
+    @media (max-width: 950px) {
+            .textposi2 {
+            display: none;  
+        }
+    }
+    @media (max-width: 600px) {
+            .sanfran, .fpari {
+            display: none;  
+        }
+        .textposi0 {
+        font-size: 8vw; 
+        background-color: rgb(255,255,255,1);
+        left: 0;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        }
+    }
+   
+    @media (min-width: 600px) {
+            .apptext {
+            display: none; 
+        }
+    } 
+    .apptext {
+        font-size: 8vw;
+        color: rgb(42,42,42);
+        background-color: rgb(255,255,255,1);
+        right: 0;
+    }
+    
+    
+    
+    .container1 {
+        max-width: 1300px;
+    }
+    
+    @media (max-width: 1300px) {
+            .hover05, .iniestabox {
+            display: none; 
+        }
+    } 
+    
+    
+  /*1번사진 효과*/  
+    figure {  /*데코선초기사이즈조정*/
+    top: -34px;
+    left: 227px;
+	width: 200px;
+	height: 0;
+	margin: -128px;
+	padding: 0;
+	background: rgb(0,0,0,0);
+    z-index: 99;
+    position: relative;
+	
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+  /* Slide */
+.hover05 figure img {
+    margin-top: 15px;
+	margin-left: -15px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+   
+    border: 6px solid rgb(190,49,89);
+}
+.hover05 figure:hover img {
+    
+    margin-top: 0;
+	margin-left: 0;
+}
+
+    
+      .iniestabox {
+          background: white;
+          width: 240px;
+          height: 240px;
+          position: relative; 
+          z-index: 99999;
+          top: -45px;
+          left: 15px;
+          
+      }
+      .iniestatxt {
+        padding-top: 85px;
+        font-size: 26px;
+        padding-left: 12px;
+          line-height:0;
+        color: rgb(42,42,42);
+      }
+      .iniestatxt2 {
+        padding-top: -130px;
+        font-size: 15px;
+        padding-left: 12px;
+          line-height:13px;
+          color: rgb(42,42,42);
+      }
+    
+    .inipic {
+        width:100%; 
+    }
+    
